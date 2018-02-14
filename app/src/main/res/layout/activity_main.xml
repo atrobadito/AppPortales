@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pe.edu.sise.appportales.MainActivity">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_screm_portales"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
-
+    android:orientation="vertical"
+    tools:context="pe.edu.sise.appportales.MainActivity"
+    android:id="@+id/lnlayout_screem">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/ic_screm_portales"
             android:orientation="vertical">
 
             <ImageView
@@ -26,15 +19,9 @@
                 android:background="@android:color/transparent"
                 android:padding="70dp"
                 android:paddingStart="60dp"
-                android:src="@drawable/ic_logo_portales" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:orientation="horizontal">
-
+                android:paddingEnd="60dp"
+                android:src="@drawable/ic_logo_portales"
+                android:contentDescription="@string/lblradiobutton1"/>
         </LinearLayout>
 
         <LinearLayout
@@ -42,7 +29,6 @@
             android:layout_height="match_parent"
             android:gravity="bottom|center"
             android:orientation="horizontal">
-
 
             <Button
                 android:id="@+id/btningresar"
@@ -60,15 +46,10 @@
                 android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 android:background="@color/crema"
-
                 android:onClick="irRegistrarse"
                 android:text="@string/lblbutton2"
                 android:textColor="@color/azul2" />
+
         </LinearLayout>
-
-    </LinearLayout>
-
-
-
 
 </LinearLayout>
