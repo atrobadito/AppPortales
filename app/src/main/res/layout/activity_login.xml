@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
+    tools:context="pe.edu.sise.appportales.LoginActivity"
+    android:layout_margin="40dp">
 
 
-    tools:context="pe.edu.sise.appportales.LoginActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="40dp">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_logo_portales"/>
+            android:src="@drawable/ic_logo_portales"
+            android:contentDescription="@string/app_name"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,14 +26,14 @@
                 android:layout_height="match_parent"
                 android:hint="@string/lblEditText1"
                 android:textAlignment="center"
-                android:drawableLeft="@drawable/ic_user"/>
+                android:drawableStart="@drawable/ic_user"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/lblEditText2"
                 android:textAlignment="center"
-                android:drawableLeft="@drawable/ic_contrasena"/>
+                android:drawableStart="@drawable/ic_contrasena"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,6 +42,7 @@
                 android:padding="15dp">
 
                 <Button
+                    android:id="@+id/btnIniciar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/lblbutton3"
@@ -61,19 +57,17 @@
                     android:text="@string/lblbutton4"
                     style="@android:style/Widget.Button.Small"
                     android:textColor="@color/write"
-                    android:drawableLeft="@drawable/ic_face"
-                    android:background="@drawable/redondeo_azul"
-                    />
+                    android:drawableStart="@drawable/ic_face"
+                    android:background="@drawable/redondeo_azul"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/lblbutton5"
                     style="@android:style/Widget.ActionButton"
-                    android:drawableLeft="@drawable/ic_googlemas"
+                    android:drawableStart="@drawable/ic_googlemas"
                     android:textColor="@color/write"
                     android:background="@drawable/redondeo_rojo"/>
-
 
                 <TextView
                     android:layout_width="match_parent"
@@ -83,15 +77,6 @@
 
             </LinearLayout>
 
-
-
-        </LinearLayout>
-
-
-
-
-
     </LinearLayout>
-
 
 </LinearLayout>
