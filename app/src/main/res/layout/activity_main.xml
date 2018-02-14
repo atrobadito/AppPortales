@@ -30,6 +30,7 @@
             android:gravity="bottom|center"
             android:orientation="horizontal">
 
+
             <Button
                 android:id="@+id/btningresar"
                 style="@android:style/Widget.Button.Small"
