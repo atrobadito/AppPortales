@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">AppPortales</string>
+
+    <string name="lblbutton1">Ingresar</string>
+    <string name="lblbutton2">Registrese</string>
+    <string name="lblbutton3">Iniciar</string>
+    <string name="lblbutton4">Iniciar con Facebook</string>
+    <string name="lblbutton5">Iniciar con Google+</string>
+    <string name="lblbutton6">Registrar</string>
+    <string name="lblbutton7">App_05_02</string>
+    <string name="lblbutton8">App_05_02</string>
+    <string name="lblbutton9">App_05_02</string>
+    <string name="lblbutton10">App_05_02</string>
+    <string name="lblbutton11">App_05_02</string>
+
+
+
+
+    <string name="lblEditText1">Usuario</string>
+    <string name="lblEditText2">Contraseña</string>
+    <string name="lblEditText3">Nombres</string>
+    <string name="lblEditText4">Apellidos</string>
+    <string name="lblEditText5">Documento de Identidad</string>
+    <string name="lblEditText6">Teléfono</string>
+    <string name="lblEditText7">Sexo</string>
+    <string name="lblEditText8">Distrito</string>
+    <string name="lblEditText9">Usuario</string>
+    <string name="lblEditText10">Contraseña</string>
+    <string name="lblEditText11">Correo</string>
+    <string name="lblEditText12">Confirmar Contraseña</string>
+
+
+
+    <string name="lblradiobutton1">Hombre</string>
+    <string name="lblradiobutton2">Mujer</string>
+
+    <string name="lblTextView1">Usuario</string>
+    <string name="lblTextView2">Password</string>
+    <string name="lblTextView3">¿Olvidaste tu contraseña?</string>
+    <string name="lblTextView4">Registro de Usuario</string>
+    <string name="lblTextView5">App_05_02</string>
+
 </resources>
