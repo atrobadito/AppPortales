@@ -7,6 +7,9 @@ import android.widget.Button;
 public class LoginActivity extends AppCompatActivity {
 
     protected Button btnIniciar;
+    //Cooommitt
+    //commiit
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
